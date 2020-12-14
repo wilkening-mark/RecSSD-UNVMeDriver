@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['vfio_5fcreate',['vfio_create',['../unvme__vfio_8c.html#a164b53f359d40d4458a780bc13fb2b89',1,'vfio_create(vfio_device_t *dev, int pci):&#160;unvme_vfio.c'],['../unvme__vfio_8h.html#a164b53f359d40d4458a780bc13fb2b89',1,'vfio_create(vfio_device_t *dev, int pci):&#160;unvme_vfio.c']]],
+  ['vfio_5fdelete',['vfio_delete',['../unvme__vfio_8c.html#a61e9769210573af5d603f779f6df006a',1,'vfio_delete(vfio_device_t *dev):&#160;unvme_vfio.c'],['../unvme__vfio_8h.html#a61e9769210573af5d603f779f6df006a',1,'vfio_delete(vfio_device_t *dev):&#160;unvme_vfio.c']]],
+  ['vfio_5fdma_5falloc',['vfio_dma_alloc',['../unvme__vfio_8c.html#a198d04acfeb78988b4431e37eb6e53fd',1,'vfio_dma_alloc(vfio_device_t *dev, size_t size):&#160;unvme_vfio.c'],['../unvme__vfio_8h.html#a198d04acfeb78988b4431e37eb6e53fd',1,'vfio_dma_alloc(vfio_device_t *dev, size_t size):&#160;unvme_vfio.c']]],
+  ['vfio_5fdma_5ffree',['vfio_dma_free',['../unvme__vfio_8c.html#aafdc4e197d1eb8746f1764e47c03fbae',1,'vfio_dma_free(vfio_dma_t *dma):&#160;unvme_vfio.c'],['../unvme__vfio_8h.html#aafdc4e197d1eb8746f1764e47c03fbae',1,'vfio_dma_free(vfio_dma_t *dma):&#160;unvme_vfio.c']]],
+  ['vfio_5fdma_5fmap',['vfio_dma_map',['../unvme__vfio_8c.html#a213e0d2801303bc563ec25322f6a3864',1,'vfio_dma_map(vfio_device_t *dev, size_t size, void *pmb):&#160;unvme_vfio.c'],['../unvme__vfio_8h.html#a213e0d2801303bc563ec25322f6a3864',1,'vfio_dma_map(vfio_device_t *dev, size_t size, void *pmb):&#160;unvme_vfio.c']]],
+  ['vfio_5fdma_5funmap',['vfio_dma_unmap',['../unvme__vfio_8c.html#a09abe01a1f96bcca06fcb4aa930b1814',1,'vfio_dma_unmap(vfio_dma_t *dma):&#160;unvme_vfio.c'],['../unvme__vfio_8h.html#a09abe01a1f96bcca06fcb4aa930b1814',1,'vfio_dma_unmap(vfio_dma_t *dma):&#160;unvme_vfio.c']]],
+  ['vfio_5fmem_5falloc',['vfio_mem_alloc',['../unvme__vfio_8c.html#ab2aad0aa82586d1cb1c54fff5e97f047',1,'unvme_vfio.c']]],
+  ['vfio_5fmem_5ffree',['vfio_mem_free',['../unvme__vfio_8c.html#a989f068e03968b12b93a5c1a4c56556a',1,'vfio_mem_free(vfio_mem_t *mem):&#160;unvme_vfio.c'],['../unvme__vfio_8h.html#a989f068e03968b12b93a5c1a4c56556a',1,'vfio_mem_free(vfio_mem_t *mem):&#160;unvme_vfio.c']]],
+  ['vfio_5fmsix_5fdisable',['vfio_msix_disable',['../unvme__vfio_8c.html#abca65b735b864c153e230c231f034ef0',1,'vfio_msix_disable(vfio_device_t *dev):&#160;unvme_vfio.c'],['../unvme__vfio_8h.html#abca65b735b864c153e230c231f034ef0',1,'vfio_msix_disable(vfio_device_t *dev):&#160;unvme_vfio.c']]],
+  ['vfio_5fmsix_5fenable',['vfio_msix_enable',['../unvme__vfio_8c.html#a0708d2549fb96a235cd77af26edeaa16',1,'vfio_msix_enable(vfio_device_t *dev, int start, int count, __s32 *efds):&#160;unvme_vfio.c'],['../unvme__vfio_8h.html#aa7f47106f99b3564e62d894649c84b94',1,'vfio_msix_enable(vfio_device_t *dev, int start, int nvec, __s32 *efds):&#160;unvme_vfio.c']]],
+  ['vfio_5fread',['vfio_read',['../unvme__vfio_8c.html#a6e0f59349b9d2d6c8659345c1884f489',1,'unvme_vfio.c']]],
+  ['vfio_5fwrite',['vfio_write',['../unvme__vfio_8c.html#ac7ecd6ec2b411565e629b21a8ffc5ba1',1,'unvme_vfio.c']]]
+];

@@ -1,0 +1,27 @@
+digraph "unvme_ns_init"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="unvme_ns_init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="vfio_dma_alloc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__vfio_8c.html#a198d04acfeb78988b4431e37eb6e53fd"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="vfio_mem_alloc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__vfio_8c.html#ab2aad0aa82586d1cb1c54fff5e97f047"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="zalloc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__log_8h.html#ad0365f35de6857f0533c276a8d243ccc"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="nvme_acmd_identify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__nvme_8c.html#a25ca6d13d3d39daf608c4e7695a62448"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="nvme_submit_cmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__nvme_8c.html#a14c1d952a58550e910747273e3dad34b"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="nvme_wait_completion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__nvme_8c.html#a794ff84022ed6585ba98c6ddbc8b80b7"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="nvme_check_completion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__nvme_8c.html#a9edecd91d5f175101db078e293f3645d"];
+  Node7 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="rdtsc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdtsc_8h.html#a64eba85413970674e0e6e03af9e9d0f4"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="vfio_dma_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__vfio_8c.html#aafdc4e197d1eb8746f1764e47c03fbae"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="vfio_mem_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__vfio_8c.html#a989f068e03968b12b93a5c1a4c56556a"];
+}

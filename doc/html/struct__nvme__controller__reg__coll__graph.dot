@@ -1,0 +1,17 @@
+digraph "_nvme_controller_reg"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="_nvme_controller_reg",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cc" ,fontname="Helvetica"];
+  Node2 [label="_nvme_controller_config",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$union__nvme__controller__config.html",tooltip="Controller configuration register. "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" aqa" ,fontname="Helvetica"];
+  Node3 [label="_nvme_adminq_attr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$union__nvme__adminq__attr.html",tooltip="Admin queue attributes. "];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" vs" ,fontname="Helvetica"];
+  Node4 [label="_nvme_version",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$union__nvme__version.html",tooltip="Version. "];
+  Node5 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" csts" ,fontname="Helvetica"];
+  Node5 [label="_nvme_controller_status",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$union__nvme__controller__status.html",tooltip="Controller status register. "];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cap" ,fontname="Helvetica"];
+  Node6 [label="_nvme_controller_cap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$union__nvme__controller__cap.html",tooltip="Controller capabilities. "];
+}

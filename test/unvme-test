@@ -1,0 +1,42 @@
+#!/bin/sh
+
+PROG=$(basename "$0")
+PDIR=$(dirname $(readlink -f $0))
+
+[ $# -lt 1 ] && echo "Usage: ${PROG} PCINAME..." && exit 1
+
+[ ${EUID} -ne 0 ] && echo "${PROG} must be run as root" && exit 1
+
+# select the executable path
+setpx() {
+    if [ -x "${PDIR}/$1" ]; then
+        echo "${PDIR}/$1"
+    else
+        echo "/usr/local/bin/$(basename $1)"
+    fi
+}
+
+# echo and execute command
+excmd() {
+    CMD=$(setpx $1)
+    shift
+    echo -e "\n\$ ${CMD} $* ($(date))"
+    eval ${CMD} $*
+    [ $? -ne 0 ] && exit 1
+}
+
+[ ${EUID} -ne 0 ] && echo "${PROG} must be run as root" && exit 1
+
+for d in $*; do
+    excmd unvme-setup bind $d
+    excmd unvme/unvme_info $d
+    excmd unvme/unvme_sim_test $d
+    excmd unvme/unvme_api_test $d
+    excmd unvme/unvme_mts_test -q 2 $d
+    excmd unvme/unvme_lat_test $d
+    excmd unvme/unvme_trans_test $d
+done
+
+if [ $# -gt 1 ]; then
+    excmd unvme/unvme_mcd_test $*
+fi

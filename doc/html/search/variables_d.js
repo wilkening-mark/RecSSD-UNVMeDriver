@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['p',['p',['../struct__nvme__cq__entry.html#a3f07d2a4f00aa2bca6192b2499ee83b4',1,'_nvme_cq_entry']]],
+  ['pagecount',['pagecount',['../struct__unvme__ns.html#a19a1e74e1eea5d1c899821dd6542748f',1,'_unvme_ns']]],
+  ['pageshift',['pageshift',['../struct__unvme__ns.html#a8b6d324822d3beb4d98758046032d475',1,'_unvme_ns::pageshift()'],['../struct__nvme__device.html#ad889a3c65a046bb529170daadff141f8',1,'_nvme_device::pageshift()']]],
+  ['pagesize',['pagesize',['../struct__unvme__ns.html#a03266ac9e23aeb998e26e6ed637f51e6',1,'_unvme_ns']]],
+  ['pc',['pc',['../struct__nvme__acmd__create__sq.html#af9233c2cf4af1dc95c528e512dc9fdcb',1,'_nvme_acmd_create_sq::pc()'],['../struct__nvme__acmd__create__cq.html#a4e1601031480cd69140ad7b333cd0004',1,'_nvme_acmd_create_cq::pc()']]],
+  ['pci',['pci',['../struct__unvme__ns.html#aaa229859bdacde6c38528a061096eb6f',1,'_unvme_ns::pci()'],['../struct__vfio__device.html#a7b795c197e9497e0e272ce2cf171a1da',1,'_vfio_device::pci()']]],
+  ['pcycles',['pcycles',['../struct__nvme__log__page__health.html#ad082f771aa5b017e12dc7f16863ac2e7',1,'_nvme_log_page_health']]],
+  ['phours',['phours',['../struct__nvme__log__page__health.html#aa1c5b238f5ce18cc178ae3d1b2dcfaf2',1,'_nvme_log_page_health']]],
+  ['prev',['prev',['../struct__unvme__desc.html#adbb7cf0c561b69b34ec477798fc33cc0',1,'_unvme_desc::prev()'],['../struct__unvme__session.html#afe6f9e0d2aeab9f4a15584a1969a2325',1,'_unvme_session::prev()'],['../struct__vfio__mem.html#a9c490d4f98e391d500d2dd5d9d5d0f12',1,'_vfio_mem::prev()']]],
+  ['prinfo',['prinfo',['../struct__nvme__command__rw.html#a307d3fae3434d85a424afcfc483e904a',1,'_nvme_command_rw']]],
+  ['prp1',['prp1',['../struct__nvme__command__common.html#a19e63aa2c8639c82a666ec389fc33bfd',1,'_nvme_command_common']]],
+  ['prp2',['prp2',['../struct__nvme__command__common.html#af2d9d564cfdb315dfbec310fe07f0b5e',1,'_nvme_command_common']]],
+  ['prplist',['prplist',['../struct__unvme__ioq.html#a6b00f304929fa84339015f10e1457b40',1,'_unvme_ioq']]],
+  ['ps',['ps',['../struct__nvme__feature__power__mgmt.html#a5aecbf867511880753cd1b9b53a4ce55',1,'_nvme_feature_power_mgmt']]],
+  ['psd',['psd',['../struct__nvme__identify__ctlr.html#a882df9621cc10fe6371f0aef24745d61',1,'_nvme_identify_ctlr']]],
+  ['psf',['psf',['../struct__nvme__cq__entry.html#acbd67683cd99eff29d7fff7a9ab69df3',1,'_nvme_cq_entry']]]
+];

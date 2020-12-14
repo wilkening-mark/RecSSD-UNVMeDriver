@@ -1,0 +1,17 @@
+digraph "nvme_acmd_delete_cq"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="nvme_acmd_delete_cq",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="nvme_acmd_delete_ioq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__nvme_8c.html#a8c5eb548d13f98bd1c400d937cedaf90"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="nvme_submit_cmd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__nvme_8c.html#a14c1d952a58550e910747273e3dad34b"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="nvme_wait_completion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__nvme_8c.html#a794ff84022ed6585ba98c6ddbc8b80b7"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="nvme_check_completion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__nvme_8c.html#a9edecd91d5f175101db078e293f3645d"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="rdtsc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$rdtsc_8h.html#a64eba85413970674e0e6e03af9e9d0f4"];
+}

@@ -1,0 +1,27 @@
+var struct__unvme__ns =
+[
+    [ "blockcount", "struct__unvme__ns.html#a43ff565d29760058d86e89c2bd0d0328", null ],
+    [ "blockshift", "struct__unvme__ns.html#a57bbe7867a7ab27c9beb59438380800c", null ],
+    [ "blocksize", "struct__unvme__ns.html#aab30bc5c432d74b9c7c5314a8aa7adb5", null ],
+    [ "bpshift", "struct__unvme__ns.html#a0adc29521bbc63a662165fba011b71c6", null ],
+    [ "device", "struct__unvme__ns.html#a65fbbd06838029a69123761a4cefab76", null ],
+    [ "fr", "struct__unvme__ns.html#acb9a357c3547a999efe9f2ce1d67ca65", null ],
+    [ "id", "struct__unvme__ns.html#a96ce7b5795ece9487238313745b36cdd", null ],
+    [ "maxbpio", "struct__unvme__ns.html#a20a23fe1c43fc6e6bd613dba27308333", null ],
+    [ "maxiopq", "struct__unvme__ns.html#a59e25f0d8d90a4fd4c63df4b8368f7e0", null ],
+    [ "maxppio", "struct__unvme__ns.html#a99910d75ed0daa82a998846aec114d37", null ],
+    [ "maxqcount", "struct__unvme__ns.html#ae467c32aea9e3beecd3b2aa502783b14", null ],
+    [ "maxqsize", "struct__unvme__ns.html#a1f60ad1f597fa86477b2a69582100369", null ],
+    [ "mn", "struct__unvme__ns.html#a6d99a21638471165a9884ccf417e0670", null ],
+    [ "nbpp", "struct__unvme__ns.html#ab71679a12c0b520f19f381825feef8d6", null ],
+    [ "nscount", "struct__unvme__ns.html#abddc96e96d0c2781514897442c0c252f", null ],
+    [ "pagecount", "struct__unvme__ns.html#a19a1e74e1eea5d1c899821dd6542748f", null ],
+    [ "pageshift", "struct__unvme__ns.html#a8b6d324822d3beb4d98758046032d475", null ],
+    [ "pagesize", "struct__unvme__ns.html#a03266ac9e23aeb998e26e6ed637f51e6", null ],
+    [ "pci", "struct__unvme__ns.html#aaa229859bdacde6c38528a061096eb6f", null ],
+    [ "qcount", "struct__unvme__ns.html#a32424c567598e2610f2703fd83cae6e8", null ],
+    [ "qsize", "struct__unvme__ns.html#a39092f01c31550102458dd4dc5c033e6", null ],
+    [ "ses", "struct__unvme__ns.html#ad800c1f39e925611e2867a02cf5b4b0c", null ],
+    [ "sn", "struct__unvme__ns.html#a3c32aa057fc4c61ff180a95ec2acad6c", null ],
+    [ "vid", "struct__unvme__ns.html#aeba2f685873d129939c72cb42183d533", null ]
+];

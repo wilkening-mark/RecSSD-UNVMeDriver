@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['dbstride',['dbstride',['../struct__nvme__device.html#a7aa4eb2993923433f4a80230e8f9dc39',1,'_nvme_device']]],
+  ['delete_5fioq',['delete_ioq',['../union__nvme__sq__entry.html#a29a832d34023e0d8dda883c305d6fbf0',1,'_nvme_sq_entry']]],
+  ['desccount',['desccount',['../struct__unvme__ioq.html#a945502f6488ff4d3cf156776868ca8c2',1,'_unvme_ioq']]],
+  ['descfree',['descfree',['../struct__unvme__ioq.html#a8035cd48fde765175dac8f9e4d0ead94',1,'_unvme_ioq']]],
+  ['desclist',['desclist',['../struct__unvme__ioq.html#ab09ad1caaf3a511da0eb0ca375574d69',1,'_unvme_ioq']]],
+  ['descnext',['descnext',['../struct__unvme__ioq.html#a2d56a84e3b210816a8778e4c2dff0cb1',1,'_unvme_ioq']]],
+  ['dev',['dev',['../struct__unvme__session.html#a4d0dbd32a31adf44986be0e9b30c22f4',1,'_unvme_session::dev()'],['../struct__nvme__queue.html#a9c807fa354687290b05c91f1731a230c',1,'_nvme_queue::dev()'],['../struct__vfio__mem.html#abcccdee5b399f25fc29dbb2043c8f29b',1,'_vfio_mem::dev()']]],
+  ['device',['device',['../struct__unvme__ns.html#a65fbbd06838029a69123761a4cefab76',1,'_unvme_ns']]],
+  ['dma',['dma',['../struct__vfio__mem.html#ae30989e9872e1883138ebb9bac728d79',1,'_vfio_mem']]],
+  ['dn',['dn',['../struct__nvme__feature__write__atomicity.html#aa4307974222929da3fd192376ab437b8',1,'_nvme_feature_write_atomicity']]],
+  ['dnr',['dnr',['../struct__nvme__cq__entry.html#ad1f85300b9a3c21ae473b5a504187def',1,'_nvme_cq_entry']]],
+  ['dpc',['dpc',['../struct__nvme__identify__ns.html#a31c25be6d6a3e44d743aa212d6f9da63',1,'_nvme_identify_ns']]],
+  ['dps',['dps',['../struct__nvme__identify__ns.html#aa90943f4f0fc62a88823ec5eac5a07ad',1,'_nvme_identify_ns']]],
+  ['dsm',['dsm',['../struct__nvme__command__rw.html#a8bc67ce8528b48b22a22469ad9dbb276',1,'_nvme_command_rw']]],
+  ['dstrd',['dstrd',['../union__nvme__controller__cap.html#aa753e32ee4d54e86fe4d699d090be4eb',1,'_nvme_controller_cap']]],
+  ['dur',['dur',['../struct__nvme__log__page__health.html#a78ee4adb93f8b764a28181b80e159b8f',1,'_nvme_log_page_health']]],
+  ['duw',['duw',['../struct__nvme__log__page__health.html#a43b4f00e7130aa90df2d932b3740ac56',1,'_nvme_log_page_health']]]
+];

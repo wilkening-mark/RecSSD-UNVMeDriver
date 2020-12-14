@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['sc',['sc',['../struct__nvme__cq__entry.html#ac9f308436e0455e0e2d98aecc566a7ab',1,'_nvme_cq_entry']]],
+  ['sct',['sct',['../struct__nvme__cq__entry.html#a12af7f61ed91b5981a46b0d3a29d1a65',1,'_nvme_cq_entry']]],
+  ['sentinel',['sentinel',['../struct__unvme__desc.html#a8f711c3047ecd9756f16116c7026fc22',1,'_unvme_desc']]],
+  ['ses',['ses',['../struct__unvme__ns.html#ad800c1f39e925611e2867a02cf5b4b0c',1,'_unvme_ns']]],
+  ['set_5ffeatures',['set_features',['../union__nvme__sq__entry.html#ab595257b4508f20764c5d83699cb182e',1,'_nvme_sq_entry']]],
+  ['sf',['sf',['../struct__nvme__log__page__error.html#a1ab74034ea020300336a1887e127b089',1,'_nvme_log_page_error']]],
+  ['shn',['shn',['../union__nvme__controller__config.html#a47050ea7bd5de6987baa327fa5cf8bdf',1,'_nvme_controller_config']]],
+  ['shst',['shst',['../union__nvme__controller__status.html#a1c5104a1e45357e5b5a1d8f2e9d80562',1,'_nvme_controller_status']]],
+  ['size',['size',['../struct__unvme__iomem.html#ade63f8e4507a78ebd2f03f81a3d6bae1',1,'_unvme_iomem::size()'],['../struct__nvme__queue.html#a869c5b44eae07f626a53f8bcb350e0fe',1,'_nvme_queue::size()'],['../struct__vfio__dma.html#a16a7ca56610b7658386354749828937e',1,'_vfio_dma::size()'],['../struct__vfio__mem.html#a1b4a9f64b08162dc7d87f700698c684b',1,'_vfio_mem::size()']]],
+  ['slba',['slba',['../struct__unvme__iod.html#a7d31406778ee0e36814ee162d8c5cf7f',1,'_unvme_iod::slba()'],['../struct__unvme__desc.html#a66b54ffe5861d33e263a58610ac0474d',1,'_unvme_desc::slba()'],['../struct__nvme__command__rw.html#abc4a0bd9423b4503bf8eef4efc3ef0ee',1,'_nvme_command_rw::slba()'],['../struct__nvme__feature__lba__data.html#ab444cbcbb6868db761e7e4552ab5f6f2',1,'_nvme_feature_lba_data::slba()']]],
+  ['smart',['smart',['../struct__nvme__feature__async__event.html#adccea6db1b0445f38eaa54e7b26edb55',1,'_nvme_feature_async_event']]],
+  ['sn',['sn',['../struct__unvme__ns.html#a3c32aa057fc4c61ff180a95ec2acad6c',1,'_unvme_ns::sn()'],['../struct__nvme__identify__ctlr.html#a3673c4a6c1a8178a415c60a7670bc04d',1,'_nvme_identify_ctlr::sn()']]],
+  ['sq',['sq',['../struct__nvme__queue.html#a7bb6098f54ac1cebd2189aa1ba75b1fb',1,'_nvme_queue']]],
+  ['sq0tdbl',['sq0tdbl',['../struct__nvme__controller__reg.html#a2524abc85cf36358e67a91f261b11fe9',1,'_nvme_controller_reg']]],
+  ['sq_5fdoorbell',['sq_doorbell',['../struct__nvme__queue.html#af5def92511176346ef3f69b0f7ac9d7e',1,'_nvme_queue']]],
+  ['sq_5fhead',['sq_head',['../struct__nvme__queue.html#a838e7a7cab956b847e5fe1c13429b292',1,'_nvme_queue']]],
+  ['sq_5ftail',['sq_tail',['../struct__nvme__queue.html#a12040fc9aa27e590dc73f6cf76b58de2',1,'_nvme_queue']]],
+  ['sqdma',['sqdma',['../struct__unvme__ioq.html#a484b762505c2f1e051b8e12139168730',1,'_unvme_ioq']]],
+  ['sqes',['sqes',['../struct__nvme__identify__ctlr.html#add16f609e1a796463b3bd924594bc1dc',1,'_nvme_identify_ctlr']]],
+  ['sqhd',['sqhd',['../struct__nvme__cq__entry.html#a1113eba8b60a451ff625d58807794afe',1,'_nvme_cq_entry']]],
+  ['sqid',['sqid',['../struct__nvme__acmd__abort.html#abf77484d94e269e58a1acdd50e40b5f9',1,'_nvme_acmd_abort::sqid()'],['../struct__nvme__log__page__error.html#a70a98b49c9b296d2a5ce704d3669ac3f',1,'_nvme_log_page_error::sqid()'],['../struct__nvme__cq__entry.html#afecc6d05db1e8ef72b42bf58419868af',1,'_nvme_cq_entry::sqid()']]],
+  ['ssvid',['ssvid',['../struct__nvme__identify__ctlr.html#ad35211f2d79b12dce017987e6b0afe0a',1,'_nvme_identify_ctlr']]]
+];

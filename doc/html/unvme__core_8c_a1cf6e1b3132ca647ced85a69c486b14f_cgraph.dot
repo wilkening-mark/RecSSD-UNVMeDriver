@@ -1,0 +1,23 @@
+digraph "unvme_cleanup"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="unvme_cleanup",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="unvme_ioq_delete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__core_8c.html#a50299308e9023fc45729212f88e2df1d"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="vfio_dma_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__vfio_8c.html#aafdc4e197d1eb8746f1764e47c03fbae"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="vfio_mem_free",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__vfio_8c.html#a989f068e03968b12b93a5c1a4c56556a"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="unvme_adminq_delete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__core_8c.html#a1b6fd5bc09887bfc8051d56c1479d01e"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="nvme_delete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__nvme_8c.html#aba3290163e951c7766cd8162adc84c9f"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="vfio_delete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__vfio_8c.html#a61e9769210573af5d603f779f6df006a"];
+  Node7 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="log_close",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$unvme__log_8c.html#aa1b92b4411527ad313da4a0be494d903"];
+}
